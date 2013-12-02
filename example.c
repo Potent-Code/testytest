@@ -3,6 +3,7 @@
 
 test_result basic_test()
 {
+	printf("This is my test!\n");
 	return TEST_PASS;
 }
 

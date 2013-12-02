@@ -6,8 +6,8 @@
 
 typedef enum
 {
-	TEST_FAIL = 0,
-	TEST_PASS
+	TEST_PASS = 0,
+	TEST_FAIL
 } test_result;
 
 
