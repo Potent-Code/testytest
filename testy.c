@@ -8,7 +8,7 @@ int main()
 	int test_count = 0;
 	test_case *i;
 	
-	for(i = Tests; i; i++)
+	for(i = Tests; i->name ; i++)
 	{
 		test_count++;
 		printf("Running test %s\n", i->name);
